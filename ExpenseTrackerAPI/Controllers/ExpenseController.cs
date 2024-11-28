@@ -28,3 +28,4 @@ public class UsersController : ControllerBase
         return Ok(new { Message = "User registered successfully" });
     }
 }
+
