@@ -26,7 +26,7 @@ namespace ExpenseTrackerAPI.Helpers
                     connection.Open();
                     command.ExecuteNonQuery();
                 }
-            }
+            }a
         }
 
         // Execute Query and Return DataTable
