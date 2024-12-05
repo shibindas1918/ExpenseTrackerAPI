@@ -25,7 +25,7 @@ public class UsersController : ControllerBase
             new SqlParameter("@Password", user.Password)
         };
         _dbHelper.ExecuteNonQuery(query, parameters);
-        return Ok(new { Message = "User registered successfully" });
+        return Ok(new { Message = "User Registered Successfully" });
     }
 }
 
