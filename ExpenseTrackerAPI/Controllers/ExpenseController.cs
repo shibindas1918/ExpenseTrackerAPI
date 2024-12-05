@@ -14,7 +14,7 @@ public class UsersController : ControllerBase
         _dbHelper = dbHelper;
     }
 
-    [HttpPost("register")]
+    [HttpPost("Register")]
     public IActionResult Register(User user)
     {
         string query = "INSERT INTO Users (UserName, Email, Password) VALUES (@UserName, @Email, @Password)";
